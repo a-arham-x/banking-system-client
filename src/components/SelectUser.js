@@ -37,7 +37,7 @@ function Users() {
 
   return (
     <div className='flex flex-col items-center justify-center'>
-    <h1 className='text-blue-700 text-5xl font-bold mt-16'>Our Users</h1>
+    <h1 className='text-blue-700 text-5xl font-bold mt-16'>Who do you want to transfer to ?</h1>
     <table className="table-auto border-4 my-8">
       <thead>
         <tr>
