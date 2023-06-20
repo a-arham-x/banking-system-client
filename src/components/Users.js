@@ -11,7 +11,9 @@ function Users() {
     const fetchData = async () => {
         try {
           const url = `${host}/users/`
-          const response = await fetch(url);
+          const response = await fetch(url, {
+            method: "GET"
+          });
           const json = await response.json();
           setUsers(json);
         } catch (error) {
