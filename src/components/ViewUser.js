@@ -25,7 +25,7 @@ function ViewUser(props) {
   return (
     <div className="flex flex-col items-center justify-center">
       <h1 className="text-5xl text-blue-900 -mb-20 mt-8">User Information</h1>
-      {user && <div className="border-2 w-96 mx-96 my-32 flex flex-col items-center justify-center">
+      {user && <div className="border-2  mx-96 my-32 flex flex-col items-center justify-center">
         <h1 className="text-2xl my-4 text-blue-700">Name: {user.name}</h1>
         <h1 className="text-2xl my-4 text-blue-700">Username: {user.username}</h1>
         <h1 className="text-2xl my-4 text-blue-700">Email: {user.email}</h1>
