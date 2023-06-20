@@ -22,10 +22,6 @@ function TransferMoney() {
         })
         const json = await response.json();
         window.alert(json.message);
-        // console.log(localStorage.getItem("token")); 
-        // props.showAlert(json.message);
-        // setOrderString("No item added");
-        // setCost(0);
       }
   return (
     <div className="flex flex-col items-center justify-center space-y-5 my-40">

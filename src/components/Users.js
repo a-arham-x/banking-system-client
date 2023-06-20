@@ -1,12 +1,10 @@
 import React from 'react'
-import {useState, useEffect, useRef} from "react";
-import { Link } from 'react-router-dom';
+import {useState, useEffect} from "react";
 import UserRow from './UserRow';
 
 function Users() {
     const host = process.env.REACT_APP_HOST;
     const [users, setUsers] = useState([]);
-    const callFetch = useRef(true);
 
     const fetchData = async () => {
         try {

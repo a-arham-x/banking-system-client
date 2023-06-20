@@ -1,10 +1,9 @@
-import React, { useState, useEffect, useRef } from 'react'
+import React, { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom';
 
 function ViewUser(props) {
     const host = process.env.REACT_APP_HOST;
     const [user, setUser] = useState([]);
-    const callFetch = useRef(true);
 
     const fetchData = async () => {
         try {
